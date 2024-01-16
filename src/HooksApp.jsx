@@ -1,6 +1,8 @@
 import { ContadorComponent } from "./components/ContadorComponent";
 import { FormularioComponent } from "./components/FormularioComponent";
 import { UsuariosComponent } from "./components/UsuariosComponent";
+import { CalculosPesados } from "./components/CalculosPesados";
+import { CallBackComponent } from "./components/CallBackComponent";
 
 export const HooksApp = () => {
   return (
@@ -21,6 +23,11 @@ export const HooksApp = () => {
       <br />
       <hr />
       <br />
+      <CalculosPesados></CalculosPesados>
+      <br />
+      <hr />
+      <br />
+      <CallBackComponent></CallBackComponent>
     </>
   );
 };
