@@ -4,7 +4,7 @@ import { useForm } from "../hooks/useForm";
 export const FormularioComponent = () => {
   const focusRef = useRef();
 
-  console.log(focusRef);
+  // console.log(focusRef);
 
   const initialForm = {
     userName: "",

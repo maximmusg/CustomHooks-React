@@ -1,8 +1,9 @@
-import { ContadorComponent } from "./components/ContadorComponent";
-import { FormularioComponent } from "./components/FormularioComponent";
-import { UsuariosComponent } from "./components/UsuariosComponent";
-import { CalculosPesados } from "./components/CalculosPesados";
-import { CallBackComponent } from "./components/CallBackComponent";
+// import { ContadorComponent } from "./components/ContadorComponent";
+// import { FormularioComponent } from "./components/FormularioComponent";
+// import { UsuariosComponent } from "./components/UsuariosComponent";
+// import { CalculosPesados } from "./components/CalculosPesados";
+// import { CallBackComponent } from "./components/CallBackComponent";
+import { ListaTareas } from "./components/ListaTareas";
 
 export const HooksApp = () => {
   return (
@@ -11,23 +12,27 @@ export const HooksApp = () => {
       <br />
       <hr />
       <br />
-      <ContadorComponent></ContadorComponent>
+      {/* <ContadorComponent></ContadorComponent> */}
       <br />
       <hr />
       <br />
-      <FormularioComponent></FormularioComponent>
+      {/* <FormularioComponent></FormularioComponent> */}
       <br />
       <hr />
       <br />
-      <UsuariosComponent></UsuariosComponent>
+      {/* <UsuariosComponent></UsuariosComponent> */}
       <br />
       <hr />
       <br />
-      <CalculosPesados></CalculosPesados>
+      {/* <CalculosPesados></CalculosPesados> */}
       <br />
       <hr />
       <br />
-      <CallBackComponent></CallBackComponent>
+      {/* <CallBackComponent></CallBackComponent> */}
+      <br />
+      <hr />
+      <br />
+      <ListaTareas></ListaTareas>
     </>
   );
 };

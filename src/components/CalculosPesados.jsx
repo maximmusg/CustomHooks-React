@@ -6,7 +6,7 @@ export const CalculosPesados = () => {
 
   const getCalculo = (listaNumeros) =>
     useMemo(() => {
-      console.log("Calculando..");
+      // console.log("Calculando..");
       return listaNumeros.reduce((a, b) => a * b);
     }, [listaNumeros]);
 
@@ -15,7 +15,7 @@ export const CalculosPesados = () => {
       ...listaNumeros,
       listaNumeros[listaNumeros.length - 1] + 1,
     ]);
-    console.log(listaNumeros);
+    // console.log(listaNumeros);
   };
 
   return (
